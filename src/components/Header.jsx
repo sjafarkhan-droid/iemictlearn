@@ -1,9 +1,9 @@
 function Header() {
   return (
     <header className="header">
-      <div className="header-left">
-        <button className="search-btn">⌕</button>
-        <button className="theme-btn">☼</button>
+      <div className="header-actions">
+        <button className="icon-btn">🔍</button>
+        <button className="icon-btn">☀️</button>
         <button className="login-btn">ورود / ثبت‌نام</button>
       </div>
 
@@ -17,14 +17,12 @@ function Header() {
       </nav>
 
       <div className="brand">
-        <div>
-          <h1>چشم هوشمند آموزش</h1>
+        <div className="brand-text">
+          <strong>چشم هوشمند آموزش</strong>
           <span>iemictlearn</span>
         </div>
 
-        <div className="brand-eye">
-          👁️
-        </div>
+        <div className="brand-logo">👁️</div>
       </div>
     </header>
   );

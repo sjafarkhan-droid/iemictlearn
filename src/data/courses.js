@@ -1,3 +1,7 @@
+import pythonIcon from "../assets/python.png";
+import reactIcon from "../assets/react.png";
+import nodeIcon from "../assets/node.png";
+
 export const coursesData = [
   {
     id: 1,
@@ -5,7 +9,7 @@ export const coursesData = [
     title: "دوره جامع Python از صفر تا حرفه‌ای",
     rating: 4.9,
     students: 1250,
-    icon: "/assets/python.png",
+    icon: pythonIcon,
   },
   {
     id: 2,
@@ -13,7 +17,7 @@ export const coursesData = [
     title: "آموزش React پروژه محور",
     rating: 4.8,
     students: 980,
-    icon: "/assets/react.png",
+    icon: reactIcon,
   },
   {
     id: 3,
@@ -21,6 +25,6 @@ export const coursesData = [
     title: "آموزش Node.js از پایه تا پیشرفته",
     rating: 4.7,
     students: 760,
-    icon: "/assets/node.png",
+    icon: nodeIcon,
   },
 ];
