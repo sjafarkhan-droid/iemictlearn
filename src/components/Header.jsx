@@ -19,10 +19,11 @@ function Header() {
       <div className="brand">
         <div className="brand-text">
           <strong>چشم هوشمند آموزش</strong>
-          <span>iemictlearn</span>
         </div>
 
-        <div className="brand-logo">👁️</div>
+        <div className="brand-logo">
+        <img src="/src/assets/brand-logo.png" alt="Logo" />
+        </div>
       </div>
     </header>
   );
